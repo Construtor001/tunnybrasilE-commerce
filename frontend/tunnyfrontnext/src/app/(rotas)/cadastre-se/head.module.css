@@ -1,0 +1,137 @@
+@font-face{
+    font-family: soegoeUiBlack;
+    src:url(../../../../public/segoe-ui-black-2.ttf);
+}
+
+@font-face {
+    font-family: minhafont;
+    src: url(../../../../public/arial-rounded-mt-bold.ttf);
+}
+    
+
+.barramenu{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    background: linear-gradient(rgb(167,18,203), rgb(87,2,116));
+    height: 53px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.juncao{
+    display: flex;
+    align-items: center;
+}
+
+.barraimg{
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+
+.englob{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.nomeSugestoes{
+    position: absolute;
+    top:-6px;
+    font-size: 40px;
+    font-family: soegoeUiBlack;
+}
+
+.logoimg{
+    margin-top: -6px;
+    margin-left: 250px;
+}
+
+.barraconteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:35px;
+    width: 100vw;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.267);
+    background: white;
+}
+
+.conteudos{
+    display: flex;
+    align-items: center;
+    font-family: minhafont;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(101,5,132);
+}
+
+.tamanhoCupo{
+    margin-right: 5px;
+    height:17px;
+    cursor: pointer;
+}
+    
+.tamanhoNoti{
+    margin-right: 5px;
+    height:22px;
+    cursor: pointer;
+}
+    
+.tamanhoConv{
+    margin-right: 5px;
+    height:23px;
+    cursor: pointer;
+}
+    
+.tamanhoPedi{
+    margin-right: 5px;
+    height:22px;
+    cursor: pointer;
+}
+    
+.tamanhoSuge{
+    margin-right: 5px;
+    height:22px;
+    cursor: pointer;
+}
+    
+.tamanhoFavo{
+    margin-right: 5px;
+    height:29px;
+    cursor: pointer;
+}
+    
+.tamanhoSupo{
+    height:25px;
+    cursor: pointer;
+}
+    
+.tamanhoCest{
+    margin-right: 5px;
+    height:20px;
+    cursor: pointer;
+}
+
+.organizarBorda{
+    border: 0.5px solid rgb(101,5,132);
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.48);
+}
+
+.tamanhoCadaa{
+    margin-top: 8px;
+    margin-right: 5px;
+    height:24px;
+    cursor: pointer;
+    font-family: minhafont;
+}
+
+.tamanhoCustom{
+    margin-bottom: -2px;
+    height:24px;
+    margin-top: 7px;
+    cursor: pointer;
+    font-family: minhafont;
+}

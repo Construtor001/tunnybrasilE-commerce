@@ -1,0 +1,87 @@
+@font-face {
+    font-family: minhafont;
+    src: url(../../../../public/arial-rounded-mt-bold.ttf);
+}
+    
+@font-face {
+    font-family: arialBlack;
+    src: url(../../../../public/segoe-ui-black-2.ttf);
+}
+
+.telaFundo{
+    background: rgba(0, 0, 0, 0.282);
+    height: 100vh;
+    width: 100%;
+}
+
+.organizarTopo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.fundo{
+    background: linear-gradient(180deg,rgb(167,18,203), rgb(87,2,116));
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: inset 5px -5px 10px rgba(0, 0, 0, 0.469);
+}
+
+.fundoNotificacao{
+    width: 80%;
+    margin-top: 50px;
+    border-radius: 40px;
+    box-shadow: inset 3px -3px 3px rgba(0, 0, 0, 0.469);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background: white;
+}
+
+.nomeNotificacao{
+    display: inline;
+    position: relative;
+    top: 20px;
+    height: 100%;
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.nomeNotificacoes{
+    margin-top: 40px;
+    color: white;
+    font-family: arialBlack;
+    font-size: 40px;
+    margin-left: -110px;
+
+}
+
+.iconeVoltar{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.iconeSilenciar{
+    margin-top: 20px;
+}
+
+.organizarSilenciar{
+    display: flex;
+    color: rgb(151,92,143);
+    margin-right: 25px;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nomeSilenciar{
+    font-family: minhafont;
+    font-size: 12px;
+}

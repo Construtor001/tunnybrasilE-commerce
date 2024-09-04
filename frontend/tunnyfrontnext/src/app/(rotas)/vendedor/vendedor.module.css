@@ -1,0 +1,268 @@
+@font-face{
+    font-family: arialBonita;
+    src: url(../../../../public/arial-rounded-mt-bold.ttf);
+}
+
+.pagina{
+    height: 100vh;
+}
+
+.fundoBanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alinhar_banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.imgbanner{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.ft_perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 5px solid rgb(189,0,255);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -80px;
+}
+
+.alinhar_nome_seguidores{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: -28px;
+}
+
+.compartilhar{
+    display: flex;
+    background: rgb(241, 241, 241);
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    width: 180px;
+    box-shadow: 0px 0px 6px rgb(0, 0, 0);
+    height:45px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.compartilhar::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: inset -2px 2px 3px rgb(255, 255, 255);
+}
+
+.compartilhar::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: inset 2px -2px 3px rgba(0, 0, 0, 0.869);
+}
+
+.nome_loja{
+    margin-right: 90px;
+    font-size: 35px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 90px;
+    color:rgb(36, 36, 36);
+}
+
+.seguir{
+    display: flex;
+    width: 120px;
+    position: relative;
+    height:45px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(189,0,255);
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0px 0px 6px rgb(0, 0, 0);
+}
+
+.seguir::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: inset -2px 2px 3px rgba(255, 255, 255, 0.415);
+}
+
+.seguir::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: inset 2px -2px 3px rgba(0, 0, 0, 0.833);
+}
+
+.nome_seguir{
+    color: white;
+    font-family: arialBonita;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.nome_compartilhar{
+    color: rgb(189,0,255);
+    font-family: arialBonita;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.alinhar_informacoes{
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nome{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color:rgb(36, 36, 36);
+}
+
+.barra_divisao{
+    height:35px;
+    width: 1px;
+    background: rgba(0, 0, 0, 0.392);
+}
+
+.barra_divisao_menu{
+    height:50px;
+    width: 1px;
+    background: rgba(0, 0, 0, 0.392);
+}
+
+.descricao_loja{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.644);
+    text-align: center;
+}
+
+.alinhar_descricao{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.barra_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width:1359px;
+    height:60px;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.358);
+}
+
+.alinhar_barra{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_nome{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(36, 36, 36);
+}
+
+.centroProdCustom{
+    display: flex;
+    margin-top: 25px;
+    margin-right: 30px;
+    margin-left: -8px;
+}
+
+.alinhar_produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.btn_cesta{
+    margin-left: 60px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: rgb(189,0,255);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.btn_cesta::after{
+    content: "";
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    box-shadow: inset 2px -2px 3px rgba(0, 0, 0, 0.491);
+}
+
+.btn_voltar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-right: 60px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: rgb(189,0,255);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.btn_voltar::after{
+    content: "";
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    box-shadow: inset 2px -2px 3px rgba(0, 0, 0, 0.491);
+}
+
+.alinhar_banner_botoes{
+    display: flex;
+    justify-content: center;
+}
+
+.nome_banner_botoes{
+    font-family: arialBonita;
+    font-size: 20px;
+    color:white;
+}

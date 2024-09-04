@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Grupo_522" data-name="Grupo 522" transform="translate(-1433 -368.579)">
+    <g id="Elipse_43" data-name="Elipse 43" transform="translate(1433 368.579)" fill="#fff" stroke="#5d0151" stroke-width="4">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="23" fill="none"/>
+    </g>
+    <g id="Elipse_44" data-name="Elipse 44" transform="translate(1455 376.579)" fill="none" stroke="#5d0151" stroke-width="3">
+      <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+      <circle cx="4.5" cy="4.5" r="3" fill="none"/>
+    </g>
+    <path id="Caminho_89" data-name="Caminho 89" d="M-3957.032,236.423c.656.334,1.809-.28,2.883,0s.993.645,1.033,1.248-1.679,8.134-1.954,9.856a5.556,5.556,0,0,0,.4,3.787c.542,1.033.993,1.162,1.894,1.721s3.218.441,5.294-.3,3.394-2.088,3.009-2.668-3.59.723-4.4-.346.062-3.431.4-4.689a77.655,77.655,0,0,0,1.851-7.876,3.582,3.582,0,0,0-1.205-3.142,4.462,4.462,0,0,0-4.045-1.205,12.926,12.926,0,0,0-4.817,1.98C-3957.377,235.347-3957.688,236.09-3957.032,236.423Z" transform="translate(5408.917 155.498)" fill="none" stroke="#5d0151" stroke-width="3"/>
+  </g>
+</svg>

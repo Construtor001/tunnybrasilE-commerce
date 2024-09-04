@@ -1,0 +1,65 @@
+# Ignorar dependências
+/backend/Tunnyback/node_modules
+/frontend/tunnyfrontnext/node_modules
+/backend/Tunnyback/pnp.js
+/frontend/tunnyfrontnext/pnp.js
+/backend/Tunnyback/.pnp
+/frontend/tunnyfrontnext/.pnp
+
+# Ignorar logs
+/backend/Tunnyback/logs
+/frontend/tunnyfrontnext/npm-debug.log*
+/backend/Tunnyback/npm-debug.log*
+/frontend/tunnyfrontnext/yarn-debug.log*
+/backend/Tunnyback/yarn-debug.log*
+/frontend/tunnyfrontnext/yarn-error.log*
+/backend/Tunnyback/yarn-error.log*
+/backend/Tunnyback/lerna-debug.log*
+
+# Ignorar cobertura de testes
+/backend/Tunnyback/coverage
+/frontend/tunnyfrontnext/coverage
+
+# Ignorar compilados de produção e build
+/backend/Tunnyback/dist
+/frontend/tunnyfrontnext/build
+/frontend/tunnyfrontnext/.next
+/frontend/tunnyfrontnext/out
+
+# Ignorar arquivos de ambiente local
+/backend/Tunnyback/.env*
+/frontend/tunnyfrontnext/.env*
+
+# Ignorar arquivos do sistema
+.DS_Store
+
+# Ignorar arquivos e configurações de IDEs
+/backend/Tunnyback/.idea
+/backend/Tunnyback/.project
+/backend/Tunnyback/.classpath
+/backend/Tunnyback/.c9
+/backend/Tunnyback/.launch
+/backend/Tunnyback/.settings
+/backend/Tunnyback/*.sublime-workspace
+
+# Ignorar arquivos de configuração do VSCode (manter arquivos específicos)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignorar arquivos de debug
+/backend/Tunnyback/npm-debug.log*
+/frontend/tunnyfrontnext/npm-debug.log*
+/frontend/tunnyfrontnext/yarn-debug.log*
+/backend/Tunnyback/yarn-debug.log*
+/frontend/tunnyfrontnext/yarn-error.log*
+/backend/Tunnyback/yarn-error.log*
+
+# Ignorar arquivos de configuração do Vercel
+/frontend/tunnyfrontnext/.vercel
+
+# Ignorar arquivos do Typescript
+/frontend/tunnyfrontnext/*.tsbuildinfo
+/frontend/tunnyfrontnext/next-env.d.ts

@@ -1,0 +1,55 @@
+.pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.topo_termos{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+}
+
+.termos_nome{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.termos_fale_conosco{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.termos_certificado_de_segurança{
+    margin-left: 20px;
+    margin-right: 20px;
+}   
+
+.selo_de_compras_imagem{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.organizar_explicacao_termos{
+    text-align: center;
+    font-size: 13px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;   
+}
+
+.explicacao_termos_nome{
+    width: 1800px;
+}
+
+.todos_termos_reservados{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

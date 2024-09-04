@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74.822" height="80.046" viewBox="0 0 74.822 80.046">
+  <g id="Grupo_480" data-name="Grupo 480" transform="translate(0 0)">
+    <path id="Caminho_226" data-name="Caminho 226" d="M33.145,0C57.348-.193,66.29,20.237,66.29,45.2S51.451,80.046,33.145,80.046,0,70.161,0,45.2,8.942.194,33.145,0Z" transform="translate(4.897 0)" fill="#e2d2a6"/>
+    <path id="Caminho_227" data-name="Caminho 227" d="M29.551,3.97C42.959,3.8,65.652-12.112,66.339.649s-9.111,32.165-36.789,31.99S-8.785,13.41-8.441.649,16.142,4.146,29.551,3.97Z" transform="translate(8.449 47.405)" fill="#ff8000"/>
+    <path id="Caminho_228" data-name="Caminho 228" d="M18.793,5.066c6.657,0,24.473-4.841,24.608,0S32.241,19.991,18.793,19.991-3.932,10.175-3.932,5.066,12.137,5.066,18.793,5.066Z" transform="translate(18.307 53.839)"/>
+    <path id="Caminho_229" data-name="Caminho 229" d="M0,.051,5.14,0s.5,4.354-.335,5.106a4.086,4.086,0,0,1-3.972.2C-.029,4.68,0,.051,0,.051Z" transform="translate(29.717 57.908) rotate(9)" fill="#fff"/>
+    <path id="Caminho_230" data-name="Caminho 230" d="M.064,5.626l4.677.264S5.4,1.374,4.563.622A4.086,4.086,0,0,0,.591.422C-.271,1.048.064,5.626.064,5.626Z" transform="translate(55.794 62.328) rotate(171)" fill="#fff"/>
+    <path id="Caminho_231" data-name="Caminho 231" d="M0,5.413a13.762,13.762,0,0,0,2.594-.021c1.317-.15,2.347-.341,2.347-.341S5.7,1.166,4.864.528A4.725,4.725,0,0,0,.891.358C.029.889,0,5.413,0,5.413Z" transform="translate(40.718 68.118) rotate(-10)" fill="#fff"/>
+    <circle id="Elipse_109" data-name="Elipse 109" cx="7.5" cy="7.5" r="7.5" transform="translate(16.712 23.936)" fill="#fff"/>
+    <circle id="Elipse_110" data-name="Elipse 110" cx="7.5" cy="7.5" r="7.5" transform="translate(46.712 23.936)" fill="#fff"/>
+    <circle id="Elipse_111" data-name="Elipse 111" cx="3" cy="3" r="3" transform="translate(22.712 29.936)"/>
+    <circle id="Elipse_112" data-name="Elipse 112" cx="3" cy="3" r="3" transform="translate(49.712 29.936)"/>
+  </g>
+</svg>

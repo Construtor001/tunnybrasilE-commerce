@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="36" viewBox="0 0 25 36">
+  <g id="Grupo_209" data-name="Grupo 209" transform="translate(0.474 0.335)">
+    <path id="Caminho_115" data-name="Caminho 115" d="M-3785.1,118.093l-14.73,12.554,14.73,13.787" transform="translate(3803.796 -112.888)" fill="none" stroke="#bd00ff" stroke-width="2.5"/>
+    <g id="Elipse_66" data-name="Elipse 66" transform="translate(14.526 -0.335)" fill="#fff" stroke="#bd00ff" stroke-width="2.5">
+      <circle cx="5" cy="5" r="5" stroke="none"/>
+      <circle cx="5" cy="5" r="3.75" fill="none"/>
+    </g>
+    <g id="Elipse_67" data-name="Elipse 67" transform="translate(-0.474 12.665)" fill="#fff" stroke="#bd00ff" stroke-width="2.5">
+      <circle cx="5" cy="5" r="5" stroke="none"/>
+      <circle cx="5" cy="5" r="3.75" fill="none"/>
+    </g>
+    <g id="Elipse_68" data-name="Elipse 68" transform="translate(14.526 25.665)" fill="#fff" stroke="#bd00ff" stroke-width="2.5">
+      <circle cx="5" cy="5" r="5" stroke="none"/>
+      <circle cx="5" cy="5" r="3.75" fill="none"/>
+    </g>
+  </g>
+</svg>

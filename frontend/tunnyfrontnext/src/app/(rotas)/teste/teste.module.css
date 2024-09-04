@@ -1,0 +1,36 @@
+.pagina{
+    background: rgba(0, 0, 0, 0.187);
+    height:100vh;
+    top:52px;
+    width: 100%;
+    position: absolute;
+}
+
+.recomendacoes{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    z-index: 1;
+    width: 680px;
+    background: white;
+    position: absolute;
+    left:48.9%;
+    transform: translate(-50%);
+    top:-5px;
+    border-radius: 25px;
+}
+
+.recomendacoes bdo{
+    display: block;
+    width: 90%;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.16);
+}
+
+.recomendacoes p{
+    font-weight: 600;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

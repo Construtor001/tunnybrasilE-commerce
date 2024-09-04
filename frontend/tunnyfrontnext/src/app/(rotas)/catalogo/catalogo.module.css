@@ -1,0 +1,101 @@
+@font-face {
+    font-family: minhafont;
+    src: url(../../../../public/arial-rounded-mt-bold.ttf);
+}
+
+.pagina{
+    height: 100%;
+    background: rgba(0, 0, 0, 0.187);
+    width: 100%;
+    position: absolute;
+}
+
+.container{
+    position: absolute;
+    height: 500px;
+    width: 800px;
+    background: white;
+    z-index: 2;
+    margin-left: 75px;
+    padding-left: 60px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-areas: "r a e"
+                "d b p";
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    border-bottom-left-radius:25px;
+    margin-top: 6px;
+}
+
+.container div > p{
+    font-family: minhafont;
+    color:rgb(151,98,144);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.container div:nth-child(1) > p{
+    font-family: minhafont;
+    color:rgb(151,98,144);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.container div:nth-child(5) > p{
+    font-family: minhafont;
+    color:rgb(151,98,144);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+.container div:nth-child(6) > p{
+    font-family: minhafont;
+    color:rgb(151,98,144);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.container div > bdo{
+    height:2px;
+    display: block;
+    width: 150px;
+    background: rgba(0, 0, 0, 0.103);
+}
+
+
+.container div > div > p{
+    margin-left: 0px;
+    font-weight: normal;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.barrinha{
+
+    z-index: 3;
+    margin-left: -65px;
+    border-top-left-radius:25px;
+    border-bottom-left-radius:25px;
+    width:80px;
+    position: absolute;
+    height:40px;
+    background: var(--clr);
+    --clr: #ffffff
+}
+
+.barrinha::before{
+    content: "";
+    position: absolute;
+    width:25px;
+    height:25px;
+    background: transparent;
+    top: 40px;
+    left: 40px;
+    border-top-right-radius: 20px;
+    box-shadow: 5px -5px 0px 5px var(--clr);
+}

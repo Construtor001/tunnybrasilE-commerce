@@ -1,0 +1,288 @@
+.rodape_maisinfo{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height:50px;
+    align-items: flex-end;
+    background: rgb(210, 210, 211);
+}
+
+.rodape_maisinfo_person{
+    font-family: semiBold;
+    color:rgb(52, 52, 52);
+}
+
+.rodape_barra{
+    height: 100%;
+    width: 3px;
+    background: white;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 500px;
+    background: rgb(238, 238, 238);
+}
+
+.rodape_pagamentos{
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+    align-items: center;
+    grid-area: pagamentos;
+}
+
+.nome_rodape_pagamento{
+    text-align: center;
+    color: rgb(52, 52, 52);
+    font-weight: 600;
+    font-size: 19px;
+    width: 300px;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.organizar_pagamento{
+    display: flex;
+    margin-top: 20px;
+}
+
+.pagamento_cartao{
+    width: 140px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(52, 52, 52);
+    font-family: segoeRegular;
+    margin-left: 5px;
+}
+
+.pagamento_pix{
+    font-size: 25px;
+    color: rgb(52, 52, 52);
+    font-family: segoeRegular;
+    margin-left: 5px;
+}
+
+.pagamento_boleto{
+    font-size: 25px;
+    color: rgb(52, 52, 52);
+    margin-left: 5px;
+    font-family: segoeRegular;
+}
+
+.rodape_logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-area: logo;
+}
+
+.rodape_objetivo{
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-family: semiBold;
+    width: 320px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(52, 52, 52);
+}
+
+.nome_plataformas{
+    text-align: center;
+    color: rgb(52, 52, 52);
+    font-weight: 600;
+    font-size: 19px;
+    width: 300px;
+    margin-left: 35px;
+    margin-top: 35px;
+    white-space: nowrap;
+    margin-bottom: 15px;
+}
+
+.nome_rodape_contato{
+    width: 400px;
+    color: rgb(52, 52, 52);
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+
+.nome_rodape_contato_descricao{
+    width: 170px;
+    color: rgb(52, 52, 52);
+    font-size: 15px;
+    text-align: start;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.rodape_contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: contato;
+}
+
+.contatos{
+    color: rgb(52, 52, 52);
+    font-size: 15px;
+    font-family: semiBold;
+}
+
+.contatos_whatsapp{
+    color: rgb(52, 52, 52);
+    font-size: 17px;
+    display: flex;
+    white-space: nowrap;
+    font-family: semiBold;
+    border-radius: 5px;
+    background: linear-gradient(rgba(89, 5, 168, 0.616), rgb(89,5,168));
+    padding: 6px;
+    flex-wrap: wrap;
+    width: 185px;
+}
+
+.contatos_whatsapp_nome{
+    color: white;
+}
+
+.contatos_whatsapp_imagem{
+    margin-left: 8px;
+}
+
+.rodape_termos{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    font-size: 20px;
+    color: rgb(52, 52, 52);
+    font-weight: bold;
+}
+
+.alinhar_rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1359px;
+}
+
+.departamento_1{
+    grid-area: termos;
+    margin-right: 90px;
+    margin-left: 90px;
+    font-size: 14px;
+}
+
+.departamento_titulo_1{
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(52, 52, 52);
+}
+
+.departamento_2{
+    grid-area: t;
+    margin-right: 90px;
+    margin-left: 90px;
+    font-size: 14px;
+}
+
+.departamento_titulo_2{
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(52, 52, 52);
+}
+
+.departamento_3{
+    grid-area: f;
+    margin-right: 140px;
+    margin-left: 90px;
+    font-size: 14px;
+}
+
+.departamento_titulo_3{
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(52, 52, 52);
+}
+
+.alnhar_informacoes_rodape{
+    display: flex;
+    margin-top: -120px;
+    margin-left: -280px;
+}
+
+.alinhar_maisinfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+    font-family: semiBold;
+    width: 1359px;
+    height: 100%;
+}
+
+.inserir_informacoes_rodape{
+    margin-top: 30px;
+    margin-left: -250px;
+}
+
+.inserir_informacoes_rodape_nome{
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 55px;
+}
+
+.inserir_informacoes_rodape_numero{
+    margin-left: 40px;
+}
+
+.inserir_informacoes_rodape_email{
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+
+}
+
+.inserir_informacoes_rodape_numero{
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.inserir_informacoes_rodape_numero_botao{
+    width: 80px;
+    height: 50px;
+    background: rgb(89,5,168);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.inserir_informacoes_rodape_email_botao{
+    width: 80px;
+    height: 50px;
+    background: rgb(89,5,168);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+

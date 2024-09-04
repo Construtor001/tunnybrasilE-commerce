@@ -1,0 +1,118 @@
+@font-face{
+    font-family: segoeUiBlack;
+    src: url(../../../../public/segoe-ui-black-2.ttf);
+}
+
+.barramenu{
+    position: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(rgb(167,18,203), rgb(87,2,116));
+    height: 53px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.perfilimg{
+    height:35px;
+    margin-bottom: 7px;
+}
+    
+.cadastroimg{
+    height:35px;
+    margin-left: 7px;
+}
+
+.juncao{
+    display: flex;
+    align-items: center;
+}
+    
+.juntar2{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.barraimg{
+    display: inline-block;
+    margin-left: 20px;
+    height:27px;
+    margin-bottom: 5px;
+}
+
+.nomeBarraCatalogo{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.logoimg{
+    position: absolute;
+    left:75%;
+    height:50px;
+}
+
+.nomePedidos{
+    color:white;
+    font-size: 30px;
+    margin-left: 90px;
+    font-family: segoeUiBlack;
+}
+
+.meuspedidos{
+    position: absolute;
+    z-index: -1;
+    left: 30%;
+    top: 22%;
+}
+
+.juncao3{
+    display:flex;
+    position: absolute;
+    top:80%;
+    left:40%;
+    align-items: center;
+
+}
+
+.nomePedidosEstrela{
+    font-size: 22px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.498);
+}
+
+.barraPedidos{
+    position: absolute;
+    top:16%;
+    left: 26%;
+    border-radius:15px;
+    height:5px;
+    width:600px;
+    background: rgba(0, 0, 0, 0.303);
+}
+
+.barraNomesBarra{
+    display: flex;
+    color:rgb(131,11,164);
+    font-size: 25px;
+    position: absolute;
+    top:10%;
+    left:25%;
+    font-weight: bold;
+}
+
+.nomesBarra{
+    margin-left:40px;
+}
+
+.barraLocal{
+    height:5px;
+    width:140px;
+    margin-left: 298px;
+    border-radius:15px;
+    background:rgb(87,2,116)
+}

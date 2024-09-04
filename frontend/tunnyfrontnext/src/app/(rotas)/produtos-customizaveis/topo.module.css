@@ -1,0 +1,28 @@
+.barraMenu{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 0.1fr 0.1fr;
+    width: 100%;
+    height: 53px;
+    background: linear-gradient(rgb(167,18,203), rgb(87,2,116));
+}
+
+.centralizarTopo{
+    width: 100vw;
+}
+
+.barraimgf{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.logoimg{
+    margin-right:80px;
+    margin-top: -3px;
+}
+
+.cestaimgf{
+    margin-top: 12px;
+    margin-left: 40px;
+}

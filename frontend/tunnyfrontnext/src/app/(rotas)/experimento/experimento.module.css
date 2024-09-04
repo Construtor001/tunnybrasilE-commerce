@@ -1,0 +1,129 @@
+@font-face {
+    font-family: minhafont;
+    src: url(../../../../public/arial-rounded-mt-bold.ttf);
+}
+
+.cadastro{
+    width: 500px;
+    margin-top: 25px;
+    height:550px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.406);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.confirmado{
+    position: relative;
+    z-index: 1;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: rgb(49,255,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.naoConfirmado{
+    border: 2px solid rgb(238,0,255);
+    height: 25px;
+    width: 25px;
+    position: relative;
+    z-index: 0;
+    border-radius: 50%;
+    background: rgb(238,251,57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.organizarEtapas{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.barraProgresso{
+    width: 220px;
+    height:4px;
+    background: rgb(193, 193, 193);
+    z-index: 0;
+    position: relative;
+}
+
+.etapa{
+    position:absolute; 
+    margin-top:-25px;
+    margin-left:-10px;
+    font-family: minhafont;
+    color: rgb(104, 104, 104);
+}
+
+.informacoesNome{
+    font-weight: bold;
+    font-size: 27px;
+    font-family: minhafont;
+    margin-top: 5px;
+}
+
+.campoInput{
+    margin-top: 20px;
+    width: 420px;
+    height:40px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.341);
+    text-align: center;
+    font-size: 18px;
+    color: rgb(35, 35, 35);
+    font-family: minhafont;
+    outline: none;
+}
+
+.campoInputEndereco{
+    margin-top: 20px;
+    width: auto;
+    height:40px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.341);
+    text-align: center;
+    font-size: 18px;
+    color: rgb(35, 35, 35);
+    font-family: minhafont;
+    outline: none;
+}
+
+.campoInput::placeholder{
+    color: rgb(174, 174, 174);
+    font-size: 15px;
+}
+
+.campoInputEndereco::placeholder{
+    color: rgb(174, 174, 174);
+    font-size: 15px;
+}
+
+.botaoAvancar{
+    height:40px;
+    width:200px;
+    margin-top: 20px;
+    background: rgb(44, 227, 44);
+    border-radius: 25px;
+    color: white;
+    font-family: minhafont;
+    font-size: 20px;
+    border: none;
+}
+
+.olamundo{
+    height:100px;
+    position: relative;
+    width: 100px;
+    background: red;
+    border-bottom-right-radius: 25px;
+    box-shadow: 2px 5px 0px black ;
+}

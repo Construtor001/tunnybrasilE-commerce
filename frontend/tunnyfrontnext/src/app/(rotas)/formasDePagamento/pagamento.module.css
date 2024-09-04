@@ -1,0 +1,403 @@
+@font-face {
+    font-family: minhafont;
+    src: url(../../../../public/arial-rounded-mt-bold.ttf);
+}
+
+@font-face {
+    font-family: semibold;
+    src: url(../../../../public/segoe-ui-semibold-2.ttf);
+}
+
+@font-face {
+    font-family: segoe-black;
+    src: url(../../../../public/segoe-ui-black-2.ttf);
+}
+
+.perfilOpcoes{
+    background: white;
+    height: 550px;
+    width: 300px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.355);
+    border-radius: 40px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 45px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.perfilArea{
+    background: white;
+    height: 550px;
+    width: 920px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.355);
+    border-radius: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloInfosPerfil{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(89, 89, 89);
+    margin-bottom: 15px;
+}
+
+.opcoesInfosPerfil{
+    font-weight: 650;
+    color: rgba(82, 82, 82, 0.509);
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.customNomeLogin{
+    font-family: segoe-black;
+    font-style: italic;
+    color: rgb(93,1,81)
+}
+
+.centrarlizar2{
+    position: relative;
+    margin-top: 10px;
+    margin-left: -5px;
+    margin-right: 10px;
+}
+
+.centralizar{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.barraNomesBarra{
+    display: flex;
+    color:rgb(155,15,190);
+    font-size: 25px;
+    top:10%;
+    left:25%;
+    font-weight: bold;
+}
+
+.nomesBarra{
+    margin-left:40px;
+    font-size: 19px;
+}
+
+.organizar2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    margin-top:40px;
+}
+
+.filtro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(184, 184, 184);
+    height:30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    white-space: nowrap;
+    border-radius: 30px;
+    width:230px;
+    color:white;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.produtoCustom{
+    display: inline-block;
+    justify-content: end;
+    height: 130px;
+    width:170px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background: rgb(217,202,222);
+    margin-right: 10px;
+}
+
+.centroProdCustom{
+    margin-top: 25px;
+    overflow: auto;
+    width: 1000;
+    height: 155px;
+    white-space: nowrap;
+}
+
+.barraLocal{
+    height:4px;
+    width:100px;
+    margin-left: 282px;
+    border-radius:15px;
+    background:rgb(87,2,116)
+}
+
+.barraPedidos{
+    margin-top: 5px;
+    border-radius:15px;
+    height:4px;
+    width:550px;
+    background: rgba(0, 0, 0, 0.303);
+}
+
+.organizarNomepedidos{
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+.iconeNencontrado{
+    margin-left: 395px;
+    margin-top: 35px;
+    
+}
+
+.nomeNencontrado{
+    font-size:15px;
+    font-weight:bold;
+    color: rgba(57, 57, 57, 0.663);
+}
+
+.tristeNencontrado{
+    transform: rotate(90deg);
+    font-size: 22px;
+    font-weight: bold; 
+    margin-left: 20px; 
+    margin-top:-5px;
+    color: rgba(57, 57, 57, 0.663);
+}
+
+.organizarNencontrado{
+    display: flex;
+    justify-content: center;
+}
+
+.organizarNomes{
+    width: 100%;
+    text-align: center;
+}
+
+.editarInformacoes{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    font-family: minhafont;
+    color: rgba(52, 52, 52, 0.492);
+}
+
+.inputEditarInfos{
+    width: 750px;
+    height: 45px;
+    grid-area: campo;
+    margin-bottom: 10px;
+    background: rgb(190,71,245);
+    border-radius: 25px;
+    z-index: 2;
+    border-style: none;
+    outline: none;
+    margin-left: 200px;
+    text-align: center;
+    font-family: minhafont;
+    color: rgb(44, 44, 44);
+    font-size: 17px;
+}
+
+.inputEditarInfos::placeholder{
+    text-align: center;
+    font-family: minhafont;
+    color: rgb(198, 198, 198);
+    font-size: 20px;
+}
+
+.nomearCampo{
+    color: rgb(106, 106, 106);
+    font-size: 17px;
+    grid-area: nome;
+    display: block;
+    margin-left: 230px;
+    font-family: minhafont;
+}
+
+.botaoSalvar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width: 180px;
+    margin-top: 15px;
+    border-radius: 30px;
+    border-style: none;
+    color: white;
+    background: linear-gradient(180deg, rgb(20, 201, 20), rgb(16, 96, 16));
+    font-size: 20px;
+    font-family: minhafont;
+}
+
+.botaoCancelar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width: 180px;
+    margin-top: 15px;
+    border-radius: 30px;
+    border-style: none;
+    color: white;
+    background: linear-gradient(180deg, rgb(251, 0, 0), rgb(125, 15, 15));
+    margin-left: 200px;
+    font-size: 20px;
+    font-family: minhafont;
+}
+
+.imagemEditar{
+    height: 60px;
+    width: 60px;   
+    position: relative;
+    left: 290px;
+    top: 15px;
+}
+
+.lapisEditar{
+    position: relative;
+    z-index: 2;
+    height: 40px;
+    width: 40px;
+    margin-left: -67px;
+    margin-top: 10px;
+    grid-area: lapis;
+}
+
+.arrumar{
+    display: grid;
+    grid-template-areas: "nome lapis"
+                         "campo lapis";
+    margin-left: -110px;
+}
+
+.arrumarTopo{
+    display: flex;
+    justify-content: center;
+}
+
+.arrumarBotoes{
+    display: flex;
+    justify-content: center;
+}
+
+.iconePagamento{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.organizarAdicoes{
+    display: flex;
+    justify-content: center;
+}
+
+.nomesAdicionados{
+    font-family: minhafont;
+    font-size: 18px;
+    width: 120px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+
+.barra{
+    width: 130px;
+    height:5px;
+    background: gray;
+    border-radius: 25px;
+    margin-left: 255px;
+    margin-top: 5px;
+}
+
+.barra2{
+    width: 100%;
+    height: 1px;
+    background: rgba(128, 128, 128, 0.418);
+    margin-top: 10px;
+}
+
+.cartao{
+    width: 400px;
+    height: 300px;
+}
+
+.arrumarCartoes{
+    margin-top: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.selecao{
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    border: 2px solid rgb(115, 115, 115);
+    border-radius: 5px;
+}
+
+.selecionado{
+    height: 19px;
+    width: 19px;
+    border-radius: 4px;
+    background: rgb(2, 212, 2);
+}
+
+.organizarSelecionado{
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+}
+
+.nomeCartao{
+    color: rgb(59, 59, 59);
+    position: relative;
+    margin-left: 60px;
+    font-family: segoe-black;
+    font-size: 22px;
+}
+
+.escolhido{
+    position: relative;
+    border: 2px solid rgb(184, 154, 188);
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    color: rgb(184, 154, 188);
+    font-family: minhafont;
+    left: 50px;
+}
+
+.organizarDeletar{
+    position: relative;
+    margin-left: 500px;
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    align-items: center;
+}
+
+.nomeBotaoDeletar{
+    font-family: minhafont;
+    color: rgb(184, 154, 188);
+}

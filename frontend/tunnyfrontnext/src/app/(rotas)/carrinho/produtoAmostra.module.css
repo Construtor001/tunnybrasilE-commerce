@@ -1,0 +1,72 @@
+.corpo_prod{
+    width: 197px;
+    height: 178px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.555);
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.imagem_prod{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 45px;
+}
+
+.organizar_imagem{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(233, 233, 233);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.organizar_textos{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.organizar_texto_1{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limita a duas linhas */
+    -webkit-box-orient: vertical;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    line-height: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.organizar_texto_2{
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 7px;
+}
+
+.botao_adicionar{
+    font-size: 11px;
+    background: transparent;
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 3px;
+    text-align: center;
+    padding: 3px;
+    padding-right: 1px;
+    padding-left: 1px;
+    border: 1px solid rgb(89,5,168);
+    border-radius: 4px;
+    color: rgb(89,5,168);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagem_estrela{
+    margin-left: 35px;
+    margin-top: 10px;
+}

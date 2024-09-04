@@ -1,0 +1,262 @@
+@font-face {
+    font-family: minhafont;
+    src: url(../../../../../public/arial-rounded-mt-bold.ttf);
+}
+    
+
+.barramenu{
+    display:grid;
+    grid-template-columns: 1fr 3fr 0.7fr 0.6fr;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(167,18,203), rgb(87,2,116));
+    height: 53px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.juncao{
+    display: flex;
+    align-items: center;
+}
+
+.barraimg{
+    display: inline-block;
+    margin-left: 20px;
+    height:27px;
+    margin-bottom: 5px;
+}
+
+.nomeBarraCatalogo{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+    
+.englob{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.fundoBarraPesquisa{
+    display: flex;
+    margin-top: 1px;
+    flex-grow: 3;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height:27px;
+    max-width: 80%;
+    border-radius: 15px;
+}
+    
+    .textobarrapesquisa{
+    color: rgb(189,133,197);
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1px;
+}
+
+.logoimg{
+    height:50px;
+    margin-top: 6px;
+}
+
+.juntar2{
+    display: flex;
+    margin-left: 10px;
+}
+
+.perfilimg{
+    height:35px;
+    margin-bottom: 7px;
+}
+
+.cadastroimg{
+    height:35px;
+    margin-left: 7px;
+}
+
+.barraconteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height:30px;
+    width: 100%;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.267);
+    background: white;
+}
+
+.conteudos{
+    display: flex;
+    align-items: center;
+    font-family: minhafont;
+    font-size: 15px;
+    color: rgb(101,5,132);
+}
+
+.tamanhoCupo{
+    margin-right: 5px;
+    height:17px;
+}
+    
+.tamanhoNoti{
+    margin-right: 5px;
+    height:22px;
+}
+    
+.tamanhoConv{
+    margin-right: 5px;
+    height:23px;
+}
+    
+.tamanhoPedi{
+    margin-right: 5px;
+    height:22px;
+}
+    
+.tamanhoSuge{
+    margin-right: 5px;
+    height:22px;
+}
+    
+.tamanhoFavo{
+    margin-right: 5px;
+    height:29px;
+}
+    
+.tamanhoSupo{
+    height:25px;
+}
+    
+.tamanhoCest{
+    margin-right: 5px;
+    height:20px;
+}
+    
+.tamanhoCada{
+    margin-right: 5px;
+    height:24px;
+}
+
+.organizar2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    margin-top:40px;
+}
+
+.filtro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(184, 184, 184);
+    height:40px;
+    margin-left: 65px;
+    border-radius: 30px;
+    width:150px;
+    color:white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.ajustar{
+    margin-top: 30px;
+    padding-right: 5px;
+    top: 26%;
+    height: 310px;
+    white-space: nowrap;
+}
+
+.produtos{
+    margin-bottom:60px;
+    display: inline-block;
+    margin-left: 42px;
+    height:280px;
+    width:395px;
+    border-radius:30px;
+    background: white;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.332);
+}
+
+.centroProdCustom{
+    display: flex;
+    flex-wrap: wrap;
+    width:1350px;
+    margin-top: 25px;
+}
+
+.centralizar{
+    display: flex;
+    height: 100vh;
+    overflow-x: hidden;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filtronome{
+    font-family: minhafont;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(101,5,132)
+}
+
+.alinhar_prod{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ajustar3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right:1050px;
+    margin-top: 35px;
+}
+
+.produtoImagem{
+    width: 100%;
+    height: 140px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.produtoNome{
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.produtoPreco{
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.produtoAvaliacoes{
+    color: green;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.produtoPagamento{
+    margin-top: 10px;
+    margin-left: 17px;
+    font-weight: bold;
+}
+
+.organizarDadosProduto{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 17px;
+}
